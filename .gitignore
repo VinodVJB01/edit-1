@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+data/temp/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Electron
+dist/electron/
+
+# Model files (large, downloaded on demand)
+data/models/
+
+# Build artifacts
+dist/electron/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vercel/Netlify
+.vercel
+.netlify
+
+# Turbo
+.turbo
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (never commit real secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Temporary
+*.tmp
+*.temp
